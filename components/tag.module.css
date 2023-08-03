@@ -1,0 +1,18 @@
+.bestHealthySalad {
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+}
+.bestHealthySaladWrapper {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-antiquewhite-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--headings-bold-16-size);
+  color: var(--color-darkorange-100);
+  font-family: var(--font-poppins);
+}

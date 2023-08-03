@@ -1,0 +1,55 @@
+.cardHovered {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--ffffff);
+  width: 269px;
+  height: 402px;
+}
+.selenaGomz,
+.theSaladIs,
+.years {
+  position: absolute;
+  left: 24px;
+  line-height: 150%;
+  display: inline-block;
+}
+.theSaladIs {
+  top: 242px;
+  letter-spacing: -0.02em;
+  width: 221px;
+}
+.selenaGomz,
+.years {
+  top: 202px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--text-default-in-field);
+  width: 155px;
+}
+.selenaGomz {
+  top: 162px;
+  font-size: var(--font-size-5xl);
+  line-height: 31.99px;
+  color: var(--b2b2b);
+  width: 181px;
+}
+.containerIcon {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  border-radius: var(--br-5xs);
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.testimonials01Hovered {
+  position: relative;
+  width: 269px;
+  height: 442px;
+  text-align: left;
+  font-size: var(--headings-bold-16-size);
+  color: var(--color);
+  font-family: var(--font-poppins);
+}

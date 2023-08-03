@@ -1,0 +1,28 @@
+.orderFood {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 130%;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--ffffff);
+  text-align: left;
+}
+.orderFoodWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-13xl);
+  background-color: var(--color-darkorange-200);
+  border-radius: var(--br-81xl);
+  width: 192px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1200px) {
+  .orderFoodWrapper:hover {
+    background-color: var(--color-orange-100);
+  }
+}
